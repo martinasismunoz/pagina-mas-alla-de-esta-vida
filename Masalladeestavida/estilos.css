@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    /* background-color: rgb(191, 244, 255); */
+    /* background-image: url(/archivos/wallpaper\ escrito\ 2.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(247, 235, 219);
+    overflow-x: hidden;
+}
+#fotoTitulo {
+    width: 70%;
+    max-width: 700px;
+    border-radius: 15px;
+
+    filter: opacity(.75);
+}
+#fotoLogo {
+    width: 15%;
+    min-width: 150px;
+    border-radius: 5%;
+}
+#portada {
+    padding: 20px 40px 20px 40px;
+    /* margin: 18px;
+    border-radius: 15px; */
+    text-align: center;
+    /* background-image: url("/archivos/asdasdasd.png"); */
+    background-image: url(/Masalladeestavida/archivos/wallpaper\ escrito\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#portada h2 {
+    margin: 0px auto 10px auto;
+    padding: 10px;
+    max-width: 550px;
+    filter: opacity(.75);
+    font-size:medium;
+    color:rgb(245, 246, 227);
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    width: 50%;
+}
+/* .espacio{
+    height: 10px;
+} */
+#seccion {
+    display: flex;
+    padding: 10px;
+    justify-content:space-evenly;
+}
+#seccion img {
+    width: 50%;
+    border-radius: 5%;
+}
+#seccion div {
+    width: 33%;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    background-image: url(/Masalladeestavida/archivos/wallpaper\ escrito\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(.85);
+}
+#seccion div h1{
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 700;
+}
+#seccion div h2{
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(237, 207, 168);
+    filter: opacity(.9);
+}
+span {
+    background-color: rgb(237, 207, 168);
+    filter: opacity(.9);
+}
+.readMoreBtn {
+    margin: 10px;
+    border: none;
+    background-color: rgb(9, 182, 67);
+    padding: 5px;
+    border-radius: 5px;
+    color: blue;
+}
+.readMoreBtn:hover{
+    background-color: rgb(88, 249, 86);
+}
+#registro {
+    margin-top: 20px;
+    height: 510px;
+}
+#registro h1{
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: cover;
+    width: 80%;
+    border-radius: 15px;
+}
+#registro h2{
+    display: none;
+}
+#equipo{
+    background-color: antiquewhite;
+    margin: 20px;
+    margin-top: 0;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#equipo h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+#equipoPortada {
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+#integrantes {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#integrantes div{
+    min-width: 250px;
+    max-width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+#integrantes h1{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+#integrantes h2 {
+    margin: 0;
+    font-size: 20px;
+}
+#integrantes h3 {
+    font-size: 15px;
+    margin: 10px;
+}
+.fotosIntegrantes{
+    width: 200px;
+    border-radius: 100px;
+    filter: grayscale(100%);
+}
+#dossier{
+    display: flex;
+    flex-direction: column;
+}
+#dossier a {
+    color: blue;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(109, 243, 109);
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#dossier a:hover{
+    background-color: rgb(176, 253, 176);
+}
+#imagenDossier {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+#imagenDossier img {
+    align-items: center;
+    width: 100%;
+    border-radius: 15px;
+    /* border: 1px solid rgb(169, 90, 11); */
+    box-shadow: 0 0 15px rgb(169, 90, 11);
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.hidee {
+    display: none;
+}
+.shoow{
+    display: block;
+}
+.hideee {
+    display: none;
+}
+.shooow{
+    display: block;
+}
+.hideeee {
+    display: none;
+}
+.shoooow{
+    display: block;
+}
+
+
+
+
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 400px;
+}
+.carousel {
+    overflow-x: hidden;
+    width: 90vw;
+    position: relative;
+    left: -15%;
+
+}
+.carousel .carousel-item img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+@media (max-width: 1000px){
+    #fotoTitulo {
+        width: 100%;
+        border-radius: 15px;
+        filter: opacity(.75);
+    }
+    #fotoLogo {
+        width: 15%;
+        min-width: 150px;
+        border-radius: 5%;
+    }
+    #portada {
+        padding: 20px 40px 20px 40px;
+        /* margin: 18px;
+        border-radius: 15px; */
+        text-align: center;
+        /* background-image: url("/archivos/asdasdasd.png"); */
+        background-image: url(/Masalladeestavida/archivos/wallpaper\ escrito\ 2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #portada h2 {
+        margin: 0px auto 10px auto;
+        padding: 10px;
+        filter: opacity(.75);
+        font-size:medium;
+        color:rgb(245, 246, 227);
+        font-size: 15px;
+        background-color: black;
+        border-radius: 10px;
+        width: 80%;
+    }
+    #seccion {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+    #seccion img {
+        border-radius: 15px;
+    }
+    #seccion div {
+        width: 90%;
+        margin: 10px;
+        border-radius: 15px;
+        text-align: center;
+        background-image: url(/Masalladeestavida/archivos/wallpaper\ escrito\ 2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: opacity(.85);
+    }
+    #seccion div h1{
+        font-size: 20px;
+        margin: 20px auto;
+        font-weight: 700;
+    }
+    #seccion div h2{
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: rgb(237, 207, 168);
+        filter: opacity(.9);
+    }
+    #registro {
+        margin-top: 20px;
+        height: 510px;
+    }
+    #registro h1{
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        width: 80%;
+        border-radius: 15px;
+    }
+    #registro h2{
+        display: block;
+        font-size: 15px;
+        text-align: center;
+    }
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 350px;
+    }
+    .carousel {
+        /* overflow-x: hidden; */
+        width: 100vw;
+        position: relative;
+        left: -40px;
+    }
+    #integrantes div{
+        min-width: 250px;
+        max-width: 70%;
+        margin: 10px;
+        text-align: center;
+    }
+    #dossier a {
+        color: blue;
+        border-radius: 15px;
+        text-align: center;
+        background-color: rgb(109, 243, 109);
+        font-size: 15px;
+        position: relative;
+        top: 20px;
+        width: 40%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
